@@ -1,10 +1,10 @@
 # Introduction
-[123](https://www.youtube.com/)
+Placeholder, more will be added here
 # Data
-ABC
+Placeholder, more will be added here
 # Methods
-CSE
+Placeholder, more will be added here
 # Results
-DSC
+Placeholder, more will be added here
 # Discussion
-Hi
+Placeholder, more will be added here
