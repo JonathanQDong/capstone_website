@@ -1,12 +1,12 @@
-# Identification of Antimicrobial Peptide from the Human Gut Microbiome using Deep Learning
+## Identification of Antimicrobial Peptide from the Human Gut Microbiome using Deep Learning
 This the capstone wbesite. Welcome!
-# Introduction
+## Introduction
 123
-# Data
+## Data
 ABC
-# Methods
+## Methods
 CSE
-# Results
+## Results
 DSC
-# Discussion
+## Discussion
 Hi
