@@ -1,6 +1,4 @@
----
-layout: default
----
+title: Identification of Antimicrobial Peptides from the Human Gut Microbiome using Deep Learning
 
 # Report and Code
 
