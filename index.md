@@ -1,7 +1,3 @@
-
-
-# Report and Code
-
 Finalized report will go [here]("adsadda") when it is done. Finalized code will go [here]("sdqdqwqdq") when it is done.
 
 # Introduction
