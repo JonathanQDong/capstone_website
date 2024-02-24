@@ -12,13 +12,15 @@ While studies have been done on AMP identification as well as on the FINRISK dat
 Our dataset that we would use for this project is called FINRISK. It is a study done by the Finnish government in which the dataset consists of the DNA samples from Finnish participants and their health outcomes.
 
 Our models take in amino acid data as input, which means that we had to first convert the DNA data within the dataset to the appropriate value. A script was written such that it would take in the DNA inputs and return its 6 frame translation.
+
+[Will include images of the data and possibly other things to talk about]
 # Methods
-Our model consists of 
+Our model consists of an ensemble of deep learning models. They consist of the LSTM model, the attention model and the BERT model. 
 # Results
 Results will be put here when we have them and get a better look at them.
 # Discussion
-[Interpreting these results will go here]. 
+[Interpreting these results will go here]
 
 Through this project we hope that our methods and results were able to acheive the intended results. By doing so, we would have an efficient solution in regards to being able to identify AMPs.
 
-[Possible explanation of things to work on in the future or to improve on].
+[Possible explanation of things to work on in the future or to improve on]
