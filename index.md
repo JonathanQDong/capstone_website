@@ -1,3 +1,5 @@
+by: Samuel Chu, Jonathan Dong, Yiming Hao, Brianda Plascencia
+
 Finalized report will go [here]("adsadda") when it is done. Finalized code will go [here]("sdqdqwqdq") when it is done.
 
 # Introduction
@@ -21,6 +23,8 @@ Our models take in amino acid data as input, which means that we had to first co
 # Methods
 
 Our model consists of an ensemble of deep learning models. They consist of the LSTM model, the attention model and the BERT model. 
+
+After we obtained the outputs from the model, we performed statistical tests in order to see if there was a correlation between detecting AMP presence and a person actually having a certain health condition or disease. This is done to ensure that the model produced relevant information regarding a person's health.
 
 # Results
 
