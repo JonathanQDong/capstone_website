@@ -26,6 +26,8 @@ Our model consists of an ensemble of deep learning models. They consist of the L
 
 After we obtained the outputs from the model, we performed statistical tests in order to see if there was a correlation between detecting AMP presence and a person actually having a certain health condition or disease. This is done to ensure that the model produced relevant information regarding a person's health.
 
+[Will include more details]
+
 # Results
 
 Results will be put here when we have them and get a better look at them.
