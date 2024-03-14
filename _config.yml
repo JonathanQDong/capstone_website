@@ -1,5 +1,5 @@
-title: Identification of Antimicrobial Peptides from the Human Gut Microbiome using Deep Learning
-description: A look at how deep learning can help aid in the fight against pathogens
+title: Utilizing Deep Learning to Uncover Antimicrobial Peptides and
+Investigating their Associations with Diverse Diseases
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
