@@ -22,7 +22,7 @@ Since our models input requires amino acid data, we would have to first convert 
 
 The model that we used for this experiment is the attention model, a neural network that is useful when it comes to processing text. As our input data consists of long strings of DNA sequences, the attention model would serve as the ideal neural network to perform our task on.
 
-Our methods involve extracting the DNA sequences from the FINRISK participants within the dataset and derive their 6-frame translations. This process enables us to obtain their peptides, which are then inputted into our attention model. The model then produces a list of peptides that are predicted to be AMPs. Following this, we conduct a Pearson correlation analysis to determine if there is any correlation between the presence of a predicted AMP and a specific health condition. Our project workflow is illustrated in Figure 1.
+After converting our original data into amino acid sequences, we performed tokenization to convert the data...
 
 [Will include more details]
 
