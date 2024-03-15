@@ -41,7 +41,7 @@ Once we have obtained a complete list of possible AMPs, we pulled the health con
 |              | Moderately Correlated (p>=0.5) | Lightly Correlated (0.3<p<0.5) | Negatively Correlated (p<0.0) |
 |:-------------|:----------------------------|:--------------------------------------------|:------------------------------|
 | DIAB_T2      | N/A| PYRKWCNNSCCVEGVAVWCPNCDNG<br>AERIPRCDQQAAGQGCGRGVCRFRRCGGKAW<br>WKWPGNSIRCSAVRRQTWYRSAWCCSAWTW  | N/A |
-| COPD         | GFVRRYFGYKSGILCRRGCVCRGWKRK<br>IRLSASTSICKVSCTVSDKACCCSGGSLSNTGVCCSCKNSGTC<br>CPAFSGHCHTPWGVCRPAMCRCAE<br>KKCSVQRCTFSYAKKDGKCKGMFRVE   | nice  |  N/A   |
+| COPD         | GFVRRYFGYKSGILCRRGCVCRGWKRK<br>IRLSASTSICKVSCTVSDKACCCSGGSLSNTGVCCSCKNSGTC<br>CPAFSGHCHTPWGVCRPAMCRCAE<br>KKCSVQRCTFSYAKKDGKCKGMFRVE   | N/A  |  N/A   |
 | ASTHMA      | N/A      | LWAVCRKVCRR<br>CYRNRLCCSSCSKG<br>IYGSFKRRFGCCHLRNTC   |  N/A   |
 | HDL          | N/A | CRIFKCIISICRK<br>NYFRKGFCPRNECAVH<br>YPIRGTCIKTFC  |  RDLYRSNICCIRHGYC<br>WRQGLCRWGGCR<br>RPLQHRLQRFGKKIRRRNSCQVPS   |
 
@@ -51,7 +51,7 @@ There were many more AMPs that display some light correlation with these health 
 
 In regards to HDL disorders, we also discovered some of the only instances where there were negatively correlated AMPs with the disorder. This can also be a nice discovery as medical professionals can avoid using these AMPs to develop drugs for HDL disorders since they either provide no use towards treatment or could possible harm the patient.
 
-It can be said however that the majority of AMPs that we have predicted show no correlation (p score of about 0) towards the health conditions. While these AMPs display no relation to our list of ailments, we used a small sample size to compare and there could be correlations to other notable diseases or health problems. 
+It can be said however that the majority of AMPs that we have predicted show no correlation (r score of about 0) towards the health conditions. While these AMPs display no relation to our list of ailments, we used a small sample size to compare and there could be correlations to other notable diseases or health problems. 
 
 # Conclusion/Discussion
 
