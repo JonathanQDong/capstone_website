@@ -30,9 +30,9 @@ Our model would return the probability that the given amino acid sequence would 
 
 # Results
 
-|              | head two          | three |  as   |
-|:-------------|:------------------|:------|:----|
-| ok           | good swedish fish | nice  |   sa  |
+|              | DIAB_T2          | COPD |  ASTHAMA   | HDL    |
+|:-------------|:------------------|:------|:----|:------------|
+| ok           | good swedish fish<br>hi| nice  |   sa  |
 | out of stock | good and plenty   | nice  |  as   |
 | ok           | good `oreos`      | hmm   |  sa   |
 | ok           | good `zoute` drop | yumm  |  sa   |
