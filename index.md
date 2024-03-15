@@ -24,9 +24,8 @@ The model that we used for this experiment is the attention model, a neural netw
 
 <figure>
     <img src="https://miro.medium.com/v2/resize:fit:1400/1*7pPAgaX58QkKnm0MO28X4Q.png">
-    <figcaption>An example of how an attention model looks like</figcaption>
 </figure>
-<center>hi</center>
+<p style="text-align:center">Center this text</p>
 After converting our original data into amino acid sequences, we performed tokenization to convert the data into an embedding of numbers corresponding to the amino acid. From there we would have to pad these sequences with 0's to ensure each input is of equal length. Depending on the number of 0's, the attention model would place more emphasis on the non-zero values in order check for predicted AMPs.
 
 Our model would return the probability that the given amino acid sequence would be an AMP. To maintain accuracy in our predictions, we only kept the sequences that were 99.99% likely to be AMPs. Once we have obtained a complete list of possible AMPs, we pulled the health conditons of the participants from the original dataset and looked to see if there was any correlation between them and our AMPs. In particular, we wanted to compare our AMPs to a few notable diseases or conditions such as Type 2 Diabetes (DIAB_T2), Chronic Obstructive Pulmonary Disease (COPD), Asthma, and High-Density Lipoprotein (HDL) disorders. Using a Pearson correlation test, a value between -1 and 1 that measures how strongly correlated two variables are, we were able to determine how certain AMPs are linked with these health problems. 
