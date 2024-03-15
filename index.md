@@ -38,14 +38,14 @@ Once we have obtained a complete list of possible AMPs, we pulled the health con
 
 # Results
 
-|              | Moderately Correlated (p>=0.5) | Lightly Correlated (0.3<p<0.5) | Negatively Correlated (p<0.0) |
+|              | Moderately Correlated (r>=0.5) | Lightly Correlated (0.3<r<0.5) | Negatively Correlated (r<0.0) |
 |:-------------|:----------------------------|:--------------------------------------------|:------------------------------|
 | DIAB_T2      | N/A| PYRKWCNNSCCVEGVAVWCPNCDNG<br>AERIPRCDQQAAGQGCGRGVCRFRRCGGKAW<br>WKWPGNSIRCSAVRRQTWYRSAWCCSAWTW  | N/A |
 | COPD         | GFVRRYFGYKSGILCRRGCVCRGWKRK<br>IRLSASTSICKVSCTVSDKACCCSGGSLSNTGVCCSCKNSGTC<br>CPAFSGHCHTPWGVCRPAMCRCAE<br>KKCSVQRCTFSYAKKDGKCKGMFRVE   | N/A  |  N/A   |
 | ASTHMA      | N/A      | LWAVCRKVCRR<br>CYRNRLCCSSCSKG<br>IYGSFKRRFGCCHLRNTC   |  N/A   |
 | HDL          | N/A | CRIFKCIISICRK<br>NYFRKGFCPRNECAVH<br>YPIRGTCIKTFC  |  RDLYRSNICCIRHGYC<br>WRQGLCRWGGCR<br>RPLQHRLQRFGKKIRRRNSCQVPS   |
 
-Representing our Pearson value as p, the above table displays the health conditions and some of the AMPs that are moderately correlated, lightly correlated and negatively correlated with them. Interestingly enough, the four AMPs that were moderately correlated with COPD were the only AMPs that displayed moderate correlation between all AMPs and health conditions. When we inquired about this with our mentor, they said that these AMPs were novel discoveries and that this could prove to be an interesting thing to look into with more research. 
+Representing our Pearson correlation coefficient as r, the above table displays the health conditions and some of the AMPs that are moderately correlated, lightly correlated and negatively correlated with them. Interestingly enough, the four AMPs that were moderately correlated with COPD were the only AMPs that displayed moderate correlation between all AMPs and health conditions. When we inquired about this with our mentor, they said that these AMPs were novel discoveries and that this could prove to be an interesting thing to look into with more research. 
 
 There were many more AMPs that display some light correlation with these health problems that despite not being as promising as the 4 moderately correlated ones, can warrant further experimentation/research. 
 
