@@ -1,5 +1,7 @@
 by: Samuel Chu, Jonathan Dong, Yiming Hao, Brianda Plascencia
 
+The full report can be found here: https://drive.google.com/file/d/1LSH6pBhDhdXci6nkXg4vLZltiAM0mU9m/view?usp=sharing
+
 # Introduction
 
 Health researchers are perpetually exploring novel methods to develop drugs for combatting evolving diseases. According to a statement in a 2016 article by Jim O’Neill, "By 2050, drug-resistant pathogens are expected to be the leading cause of death in the world." A compelling instance supporting this statement is the emergence of COVID-19 and its variants, which have resulted in the deaths of millions worldwide. When considered alongside other significant diseases such as swine flu, Ebola, and HIV, it further underscores the urgency of developing drugs swiftly to mitigate their spread and adaptation. 
