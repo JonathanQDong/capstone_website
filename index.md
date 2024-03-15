@@ -30,12 +30,12 @@ Our model would return the probability that the given amino acid sequence would 
 
 # Results
 
-|              | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+|              | head two          | three |  as   |
+|:-------------|:------------------|:------|:----|
+| ok           | good swedish fish | nice  |   sa  |
+| out of stock | good and plenty   | nice  |  as   |
+| ok           | good `oreos`      | hmm   |  sa   |
+| ok           | good `zoute` drop | yumm  |  sa   |
 
 # Discussion
 
