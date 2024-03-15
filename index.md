@@ -33,7 +33,7 @@ Once we have obtained a complete list of possible AMPs, we pulled the health con
 
 # Results
 
-|              | Moderately Correlated (p>=0.5) | Lightly Correlated (0.3>p<0.5) | Negatively Correlated (p<0.0) |
+|              | Moderately Correlated (p>=0.5) | Lightly Correlated (0.3<p<0.5) | Negatively Correlated (p<0.0) |
 |:-------------|:----------------------------|:--------------------------------------------|:------------------------------|
 | DIAB_T2      | N/A| PYRKWCNNSCCVEGVAVWCPNCDNG<br>AERIPRCDQQAAGQGCGRGVCRFRRCGGKAW<br>WKWPGNSIRCSAVRRQTWYRSAWCCSAWTW  | N/A |
 | COPD         | GFVRRYFGYKSGILCRRGCVCRGWKRK<br>IRLSASTSICKVSCTVSDKACCCSGGSLSNTGVCCSCKNSGTC<br>CPAFSGHCHTPWGVCRPAMCRCAE<br>KKCSVQRCTFSYAKKDGKCKGMFRVE   | nice  |  N/A   |
