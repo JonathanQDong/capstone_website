@@ -45,7 +45,7 @@ In regards to HDL disorders, we also discovered some of the only instances where
 
 It can be said however that the majority of AMPs that we have predicted show no correlation (p score of about 0) towards the health conditions. While these AMPs display no relation to our list of ailments, we used a small sample size to compare and there could be correlations to other notable diseases or health problems. 
 
-# Discussion
+# Conclusion/Discussion
 
 Through this project and its results, we wanted to show the potential that machine learning has in regards to this area of interest. While we were not able to test a wide variety of health conditons or use more patients in this study, we have already showed promising findings that could be built further upon. By being able to detect early or new AMP presence within people, medical professionals will be able to take preventative action to ensure that someones condition does not possibly get worse over time.
 
