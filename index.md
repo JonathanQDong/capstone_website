@@ -22,7 +22,9 @@ Since our models input requires amino acid data, we would have to first convert 
 
 The model that we used for this experiment is the attention model, a neural network that is useful when it comes to processing text. As our input data consists of long strings of DNA sequences, the attention model would serve as the ideal neural network to perform our task on.
 
-![Attention](https://miro.medium.com/v2/resize:fit:1400/1*7pPAgaX58QkKnm0MO28X4Q.png)
+<p align="center">
+  <img width="460" height="300" src="https://miro.medium.com/v2/resize:fit:1400/1*7pPAgaX58QkKnm0MO28X4Q.png">
+</p>
 
 After converting our original data into amino acid sequences, we performed tokenization to convert the data into an embedding of numbers corresponding to the amino acid. From there we would have to pad these sequences with 0's to ensure each input is of equal length. Depending on the number of 0's, the attention model would place more emphasis on the non-zero values in order check for predicted AMPs.
 
