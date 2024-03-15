@@ -12,7 +12,7 @@ While previous studies have been done on AMP identification and on the FINRISK d
 
 # Data
 
-The dataset we utilized for this project is called FINRISK. It is a study conducted by the Finnish government which consists of DNA samples from the Finnish participants along with their health outcomes. This health data was recorded extensively on the study participants approximately 20 years later. For our project, we extracted 108 million DNA sequences from 71 participants within the database.
+The dataset we utilized for this project is called FINRISK. It is a study conducted by the Finnish government which consists of DNA samples from the Finnish participants along with their health outcomes. This health data was recorded extensively on the study participants approximately 20 years later. For our project, we extracted 108 million DNA sequences from 71 participants within the database. The data was exclusively accessible to us through Barnacle2, the Knight Lab’s supercomputer cluster, due to the confidential nature of the human data within the FINRISK dataset.
 
 Since our models input requires amino acid data, we would have to first convert the original data before we can use it. To achieve this, we developed a script capable of taking DNA inputs and generating their 6-frame translation. This process reads the DNA across three potential overlapping frames forward, as well as on the complementary strand in the reverse direction. The reason behind doing this is that it examines each nucleotide sequence in all six frames, forward and reverse readings, which allows us to identify all possible codons, including those that could start or stop protein synthesis. Thus, by translating these codons into their genetic code, we can decipher the sequence of amino acids encoded by the DNA. This makes possible the conversion of genetic information into functional proteins, which are composed of peptides–short strings of amino acids.  
 
@@ -30,12 +30,12 @@ Our model would return the probability that the given amino acid sequence would 
 
 # Results
 
-|              | DIAB_T2          | COPD |  ASTHAMA   | HDL    |
-|:-------------|:------------------|:------|:----|:------------|
-| ok           | good swedish fish<br>hi| nice  |   sa  |
-| out of stock | good and plenty   | nice  |  as   |
-| ok           | good `oreos`      | hmm   |  sa   |
-| ok           | good `zoute` drop | yumm  |  sa   |
+|              | Strongly Correlated (p>=0.5) | Lightly Correlated (0.3>p<0.5) | Negatively Correlated (p<0.0) |
+|:-------------|:----------------------------|:--------------------------------------------|:------------------------------|
+| DIAB_T2      | N/A| PYRKWCNNSCCVEGVAVWCPNCDNG<br>AERIPRCDQQAAGQGCGRGVCRFRRCGGKAW<br>WKWPGNSIRCSAVRRQTWYRSAWCCSAWTW  | N/A |
+| COPD         | GFVRRYFGYKSGILCRRGCVCRGWKRK<br>IRLSASTSICKVSCTVSDKACCCSGGSLSNTGVCCSCKNSGTC<br>CPAFSGHCHTPWGVCRPAMCRCAE<br>KKCSVQRCTFSYAKKDGKCKGMFRVE   | nice  |  N/A   |
+| ASTHAMA      | N/A      | LWAVCRKVCRR<br>CYRNRLCCSSCSKG<br>IYGSFKRRFGCCHLRNTC   |  N/A   |
+| HDL          | N/A | CRIFKCIISICRK<br>NYFRKGFCPRNECAVH<br>YPIRGTCIKTFC  |  RDLYRSNICCIRHGYC<br>WRQGLCRWGGCR<br>RPLQHRLQRFGKKIRRRNSCQVPS   |
 
 # Discussion
 
