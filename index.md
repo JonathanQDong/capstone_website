@@ -45,13 +45,11 @@ Once we have obtained a complete list of possible AMPs, we pulled the health con
 | ASTHMA      | N/A      | LWAVCRKVCRR<br>CYRNRLCCSSCSKG<br>IYGSFKRRFGCCHLRNTC   |  N/A   |
 | HDL          | N/A | CRIFKCIISICRK<br>NYFRKGFCPRNECAVH<br>YPIRGTCIKTFC  |  RDLYRSNICCIRHGYC<br>WRQGLCRWGGCR<br>RPLQHRLQRFGKKIRRRNSCQVPS   |
 
-Representing our Pearson correlation coefficient as r, the above table displays the health conditions and some of the AMPs that are moderately correlated, lightly correlated and negatively correlated with them. Interestingly enough, the four AMPs that were moderately correlated with COPD were the only AMPs that displayed moderate correlation between all AMPs and health conditions. When we inquired about this with our mentor, they said that these AMPs were novel discoveries and that this could prove to be an interesting thing to look into with more research. 
+Representing our Pearson correlation coefficient as r, the above table displays the health conditions and some of the AMPs that are moderately correlated, lightly correlated and negatively correlated with them. Interestingly enough, the four AMPs that were moderately correlated with COPD were the only AMPs that displayed moderate correlation between all AMPs and the health conditions we tested. When we inquired about this with our mentor, they said that these peptides were novel discoveries and that this could prove to be an interesting thing to look into with more research. 
 
-There were many more AMPs that display some light correlation with these health problems that despite not being as promising as the 4 moderately correlated ones, can warrant further experimentation/research. 
+There were many more AMPs that display some light correlation with these health problems that despite not being as promising as the 4 moderately correlated ones, can warrant further experimentation/research. In regards to HDL disorders, we also discovered some of the only instances where there were negatively correlated AMPs with the disorder.
 
-In regards to HDL disorders, we also discovered some of the only instances where there were negatively correlated AMPs with the disorder. This can also be a nice discovery as medical professionals can avoid using these AMPs to develop drugs for HDL disorders since they either provide no use towards treatment or could possible harm the patient.
-
-It can be said however that the majority of AMPs that we have predicted show no correlation (r score of about 0) towards the health conditions. While these AMPs display no relation to our list of ailments, we used a small sample size to compare and there could be correlations to other notable diseases or health problems. 
+It can be said however that the majority of AMPs that we have predicted show no correlation (r score of about 0) towards the health conditions. While these AMPs display no relation to our list of ailments, we used a small sample size of 71 study participants and 4 diseases. In the near future, we wish to conduct our analysis on more study participants and diseases.
 
 # Conclusion/Discussion
 
