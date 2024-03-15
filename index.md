@@ -30,7 +30,7 @@ The model that we used for this experiment is the attention model, a neural netw
 </p>
 <p style="text-align:center">Figure 2. Framework of an attention model</p>
 
-After converting our original data into amino acid sequences, we performed tokenization to convert the data into an embedding of numbers corresponding to the amino acid. From there we would have to pad these sequences with 0's to ensure each input is of equal length. Depending on the number of 0's, the attention model would place more emphasis on the non-zero values in order check for predicted AMPs.
+After converting our original data into amino acid sequences, we performed tokenization to convert the data into an embedding of numbers corresponding to the amino acid. From there we would have to pad these sequences with 0's to ensure each input is of equal length.
 
 Our model would return the probability that the given amino acid sequence would be an AMP. To maintain accuracy in our predictions, we only kept the sequences that were 99.99% likely to be AMPs. 
 
