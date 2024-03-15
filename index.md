@@ -16,8 +16,6 @@ The dataset we utilized for this project is called FINRISK. It is a study conduc
 
 Since our models input requires amino acid data, we would have to first convert the original data before we can use it. To achieve this, we developed a script capable of taking DNA inputs and generating their 6-frame translation. This process reads the DNA across three potential overlapping frames forward, as well as on the complementary strand in the reverse direction. The reason behind doing this is that it examines each nucleotide sequence in all six frames, forward and reverse readings, which allows us to identify all possible codons, including those that could start or stop protein synthesis. Thus, by translating these codons into their genetic code, we can decipher the sequence of amino acids encoded by the DNA. This makes possible the conversion of genetic information into functional proteins, which are composed of peptides–short strings of amino acids.  
 
-[Will include images of the data and possibly other things to talk about]
-
 # Methods
 
 The model that we used for this experiment is the attention model, a neural network that is useful when it comes to processing text. As our input data consists of long strings of DNA sequences, the attention model would serve as the ideal neural network to perform our task on.
@@ -25,12 +23,10 @@ The model that we used for this experiment is the attention model, a neural netw
 <p align="center">
   <img src="https://miro.medium.com/v2/resize:fit:1400/1*7pPAgaX58QkKnm0MO28X4Q.png" />
 </p>
-<p style="text-align:center">This is a paragraph.</p>
+<p style="text-align:center">Heres the framework of an attention model</p>
 After converting our original data into amino acid sequences, we performed tokenization to convert the data into an embedding of numbers corresponding to the amino acid. From there we would have to pad these sequences with 0's to ensure each input is of equal length. Depending on the number of 0's, the attention model would place more emphasis on the non-zero values in order check for predicted AMPs.
 
 Our model would return the probability that the given amino acid sequence would be an AMP. To maintain accuracy in our predictions, we only kept the sequences that were 99.99% likely to be AMPs. Once we have obtained a complete list of possible AMPs, we pulled the health conditons of the participants from the original dataset and looked to see if there was any correlation between them and our AMPs. In particular, we wanted to compare our AMPs to a few notable diseases or conditions such as Type 2 Diabetes (DIAB_T2), Chronic Obstructive Pulmonary Disease (COPD), Asthma, and High-Density Lipoprotein (HDL) disorders. Using a Pearson correlation test, a value between -1 and 1 that measures how strongly correlated two variables are, we were able to determine how certain AMPs are linked with these health problems. 
-
-[Will include more details]
 
 # Results
 
@@ -51,6 +47,6 @@ It can be said however that the majority of AMPs that we have predicted show no 
 
 # Discussion
 
-Through this project and its results, we wanted to show the potential that machine learning has when trying to solve this area of interest. While we were not able to test a wide variety of health conditons or use more pateints in ths study, we have already showed promising findings 
+Through this project and its results, we wanted to show the potential that machine learning has in regards to this area of interest. While we were not able to test a wide variety of health conditons or use more patients in ths study, we have already showed promising findings that could be built further upon. By being able to detect early or new AMP presence within people, medical professionals will be able to take preventative action to ensure that someones condition does not possibly get worse over time.
 
-[Possible explanation of things to work on in the future or to improve on]
+In the future, we would like to add more health condtions and patients to help generalize our model and findings as time constraints limited us with how far we can expand. Additionally, we would like to incorporate more models such as the LSTM or BERT to see if we can produce better and more accurate results. 
