@@ -16,6 +16,11 @@ The dataset we utilized for this project is called FINRISK. It is a study conduc
 
 Since our models input requires amino acid data, we would have to first convert the original data before we can use it. To achieve this, we developed a script capable of taking DNA inputs and generating their 6-frame translation. This process reads the DNA across three potential overlapping frames forward, as well as on the complementary strand in the reverse direction. The reason behind doing this is that it examines each nucleotide sequence in all six frames, forward and reverse readings, which allows us to identify all possible codons, including those that could start or stop protein synthesis. Thus, by translating these codons into their genetic code, we can decipher the sequence of amino acids encoded by the DNA. This makes possible the conversion of genetic information into functional proteins, which are composed of peptides–short strings of amino acids.  
 
+<p align="center">
+  <img src="assets/model_pipeline.png" />
+</p>
+<p style="text-align:center">Figure 1. General pipeline of our experiment including data transformation</p>
+
 # Methods
 
 The model that we used for this experiment is the attention model, a neural network that is useful when it comes to processing text. As our input data consists of long strings of DNA sequences, the attention model would serve as the ideal neural network to perform our task on.
@@ -23,7 +28,7 @@ The model that we used for this experiment is the attention model, a neural netw
 <p align="center">
   <img src="https://miro.medium.com/v2/resize:fit:1400/1*7pPAgaX58QkKnm0MO28X4Q.png" />
 </p>
-<p style="text-align:center">Figure 1. Framework of an attention model</p>
+<p style="text-align:center">Figure 2. Framework of an attention model</p>
 
 After converting our original data into amino acid sequences, we performed tokenization to convert the data into an embedding of numbers corresponding to the amino acid. From there we would have to pad these sequences with 0's to ensure each input is of equal length. Depending on the number of 0's, the attention model would place more emphasis on the non-zero values in order check for predicted AMPs.
 
