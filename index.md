@@ -29,13 +29,20 @@ Our model would return the probability that the given amino acid sequence would 
 [Will include more details]
 
 # Results
-
-|              | Strongly Correlated (p>=0.5) | Lightly Correlated (0.3>p<0.5) | Negatively Correlated (p<0.0) |
+|              | Moderately Correlated (p>=0.5) | Lightly Correlated (0.3>p<0.5) | Negatively Correlated (p<0.0) |
 |:-------------|:----------------------------|:--------------------------------------------|:------------------------------|
 | DIAB_T2      | N/A| PYRKWCNNSCCVEGVAVWCPNCDNG<br>AERIPRCDQQAAGQGCGRGVCRFRRCGGKAW<br>WKWPGNSIRCSAVRRQTWYRSAWCCSAWTW  | N/A |
 | COPD         | GFVRRYFGYKSGILCRRGCVCRGWKRK<br>IRLSASTSICKVSCTVSDKACCCSGGSLSNTGVCCSCKNSGTC<br>CPAFSGHCHTPWGVCRPAMCRCAE<br>KKCSVQRCTFSYAKKDGKCKGMFRVE   | nice  |  N/A   |
 | ASTHAMA      | N/A      | LWAVCRKVCRR<br>CYRNRLCCSSCSKG<br>IYGSFKRRFGCCHLRNTC   |  N/A   |
 | HDL          | N/A | CRIFKCIISICRK<br>NYFRKGFCPRNECAVH<br>YPIRGTCIKTFC  |  RDLYRSNICCIRHGYC<br>WRQGLCRWGGCR<br>RPLQHRLQRFGKKIRRRNSCQVPS   |
+
+Representing our Pearson value as p, the above table displays the health conditions and some of the AMPs that are moderately correlated, lightly correlated and negatively correlated with them. Interestingly enough, the four AMPs that were moderately correlated with COPD were the only AMPs that displayed moderate correlation between all AMPs and health conditions. When we inquired about this with our mentor, they said that these AMPs were novel discoveries and that this could prove to be an interesting thing to look into with more research. 
+
+There were many more AMPs that display some light correlation with these health problems that despite not being as promising as the 4 moderately correlated ones, can warrant further experimentation/research. 
+
+In regards to HDL, we also discovered some of the only instances where there were negatviely correlated AMPs with the disorder. This can also be a nice discovery as medical professionals can avoid using these AMPs to develop drugs for HDL since they either provide no use towards treatment or could possible harm the patient.
+
+It can be said however that the majority of AMPs that we have predicted show no correlation (p score of about 0) towards the health conditions.
 
 # Discussion
 
