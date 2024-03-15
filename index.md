@@ -29,6 +29,7 @@ Our model would return the probability that the given amino acid sequence would 
 [Will include more details]
 
 # Results
+
 |              | Moderately Correlated (p>=0.5) | Lightly Correlated (0.3>p<0.5) | Negatively Correlated (p<0.0) |
 |:-------------|:----------------------------|:--------------------------------------------|:------------------------------|
 | DIAB_T2      | N/A| PYRKWCNNSCCVEGVAVWCPNCDNG<br>AERIPRCDQQAAGQGCGRGVCRFRRCGGKAW<br>WKWPGNSIRCSAVRRQTWYRSAWCCSAWTW  | N/A |
