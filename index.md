@@ -1,6 +1,6 @@
 by: Samuel Chu, Jonathan Dong, Yiming Hao, Brianda Plascencia
 
-The full report can be found here: https://drive.google.com/file/d/1LSH6pBhDhdXci6nkXg4vLZltiAM0mU9m/view?usp=sharing
+The full report can be found [here](https://drive.google.com/file/d/1LSH6pBhDhdXci6nkXg4vLZltiAM0mU9m/view?usp=sharing)
 
 # Introduction
 
