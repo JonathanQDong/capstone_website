@@ -23,9 +23,8 @@ Since our models input requires amino acid data, we would have to first convert 
 The model that we used for this experiment is the attention model, a neural network that is useful when it comes to processing text. As our input data consists of long strings of DNA sequences, the attention model would serve as the ideal neural network to perform our task on.
 
 <figure>
-    <img src="https://miro.medium.com/v2/resize:fit:1400/1*7pPAgaX58QkKnm0MO28X4Q.png"
-         alt="Albuquerque, New Mexico">
-    <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
+    <img src="https://miro.medium.com/v2/resize:fit:1400/1*7pPAgaX58QkKnm0MO28X4Q.png">
+    <figcaption>An example of how an attention model looks like</figcaption>
 </figure>
 
 After converting our original data into amino acid sequences, we performed tokenization to convert the data into an embedding of numbers corresponding to the amino acid. From there we would have to pad these sequences with 0's to ensure each input is of equal length. Depending on the number of 0's, the attention model would place more emphasis on the non-zero values in order check for predicted AMPs.
@@ -47,9 +46,9 @@ Representing our Pearson value as p, the above table displays the health conditi
 
 There were many more AMPs that display some light correlation with these health problems that despite not being as promising as the 4 moderately correlated ones, can warrant further experimentation/research. 
 
-In regards to HDL, we also discovered some of the only instances where there were negatviely correlated AMPs with the disorder. This can also be a nice discovery as medical professionals can avoid using these AMPs to develop drugs for HDL since they either provide no use towards treatment or could possible harm the patient.
+In regards to HDL disorders, we also discovered some of the only instances where there were negatviely correlated AMPs with the disorder. This can also be a nice discovery as medical professionals can avoid using these AMPs to develop drugs for HDL disorders since they either provide no use towards treatment or could possible harm the patient.
 
-It can be said however that the majority of AMPs that we have predicted show no correlation (p score of about 0) towards the health conditions.
+It can be said however that the majority of AMPs that we have predicted show no correlation (p score of about 0) towards the health conditions. While these AMPs display no relation to our list of ailments, we used a small sample size to compare and there could be correlations to other notable diseases of health problems. 
 
 # Discussion
 
